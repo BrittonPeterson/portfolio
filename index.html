@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Britton Peterson — Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio of Britton Peterson, a software engineer. Magic: The Gathering data tools and Python coursework."
+    />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,620&family=Outfit:wght@380;500;640&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip" href="#work">Skip to work</a>
+
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="#top">Britton Peterson</a>
+        <nav class="nav" aria-label="Page">
+          <a href="#about">About</a>
+          <a href="#work">Work</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <p class="eyebrow">Portfolio · class site</p>
+        <h1>Software for decks, data, and the small tools in between.</h1>
+        <p class="lede">
+          I’m Britton Peterson. Most of what I build looks at Magic: The Gathering
+          from the data side: matchup tables, deck comparison, and a way to ask
+          questions about the metagame. This page is a short record of that work,
+          plus coursework.
+        </p>
+        <div class="hero-actions">
+          <a class="button" href="https://github.com/BrittonPeterson">GitHub</a>
+          <a class="button button-quiet" href="mailto:britton.peterson@outlook.com">Email</a>
+        </div>
+      </section>
+
+      <section id="about" class="about">
+        <h2><span>01</span> About</h2>
+        <div class="about-copy">
+          <p>
+            I write Python and JavaScript, and I like projects that turn a messy
+            public dataset into something you can actually read. A lot of that
+            has been Endstep metagame numbers, Commander decklists, and 60-card
+            constructed lists.
+          </p>
+          <p>
+            The work below is on GitHub. Descriptions stay close to what each
+            repository actually does.
+          </p>
+        </div>
+      </section>
+
+      <section id="work" class="work">
+        <h2><span>02</span> Selected work</h2>
+        <ol class="projects">
+          <li>
+            <article>
+              <div class="project-meta">
+                <span class="index">01</span>
+                <span class="stack">Python · JavaScript</span>
+              </div>
+              <h3>
+                <a href="https://github.com/BrittonPeterson/EndstepMetaTable">Endstep Meta Table</a>
+              </h3>
+              <p>
+                A local matchup matrix for Endstep’s public metagame data. A Python
+                scraper takes the top Pauper decks and their win rates, and a Node
+                page shows the snapshot as a color-coded table that can refresh
+                about once a day.
+              </p>
+            </article>
+          </li>
+          <li>
+            <article>
+              <div class="project-meta">
+                <span class="index">02</span>
+                <span class="stack">TypeScript · React · Python</span>
+              </div>
+              <h3>
+                <a href="https://github.com/BrittonPeterson/MTG_Analysis_Tool">MTG Analysis Tool</a>
+              </h3>
+              <p>
+                A query front end over metagame data. The React app talks to a
+                FastAPI backend that handles matchup questions, win-rate lookups,
+                and top-deck queries.
+              </p>
+            </article>
+          </li>
+          <li>
+            <article>
+              <div class="project-meta">
+                <span class="index">03</span>
+                <span class="stack">Python</span>
+              </div>
+              <h3>
+                <a href="https://github.com/BrittonPeterson/CompareDecks">Compare Decks</a>
+              </h3>
+              <p>
+                Python programs for comparing Commander (EDH) decklists so two
+                lists can be lined up instead of read side by side by hand.
+              </p>
+            </article>
+          </li>
+          <li>
+            <article>
+              <div class="project-meta">
+                <span class="index">04</span>
+                <span class="stack">Python</span>
+              </div>
+              <h3>
+                <a href="https://github.com/BrittonPeterson/60CardDeckAnalysisTool">60-Card Deck Analysis</a>
+              </h3>
+              <p>
+                A Python tool for looking at 60-card constructed decks, with deck
+                lists kept alongside the analysis script.
+              </p>
+            </article>
+          </li>
+          <li>
+            <article>
+              <div class="project-meta">
+                <span class="index">05</span>
+                <span class="stack">Python · coursework</span>
+              </div>
+              <h3>
+                <a href="https://github.com/BrittonPeterson/CIS121Project">CIS 121 To-Do List</a>
+              </h3>
+              <p>
+                A command-line to-do list from CIS 121. Tasks can be added, marked
+                complete, removed, and printed from a small pair of Python classes.
+              </p>
+            </article>
+          </li>
+        </ol>
+      </section>
+
+      <section id="skills" class="skills">
+        <h2><span>03</span> Skills</h2>
+        <ul>
+          <li>Python</li>
+          <li>JavaScript</li>
+          <li>TypeScript</li>
+          <li>React</li>
+          <li>FastAPI</li>
+          <li>HTML &amp; CSS</li>
+          <li>Git &amp; GitHub</li>
+        </ul>
+      </section>
+
+      <section id="contact" class="contact">
+        <h2><span>04</span> Contact</h2>
+        <p>For class, reach me here.</p>
+        <ul>
+          <li><a href="mailto:britton.peterson@outlook.com">britton.peterson@outlook.com</a></li>
+          <li><a href="https://github.com/BrittonPeterson">github.com/BrittonPeterson</a></li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Britton Peterson · <span id="year"></span></p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
