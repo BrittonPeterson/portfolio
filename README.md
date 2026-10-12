@@ -6,10 +6,11 @@ Live site (after Pages is enabled): [https://brittonpeterson.github.io/portfolio
 
 ## What’s on the page
 
-- Short intro
-- Selected public repositories
-- Skills used in those projects
-- Email and GitHub contact links
+- Short intro and about section
+- Experience, including the Thomson Reuters contract
+- Selected projects
+- Skills from the resume
+- Phone, email, and GitHub contact links
 
 ## Publish on GitHub Pages
 

@@ -255,9 +255,30 @@ h2 span {
   background-size: 100% 1px;
 }
 
-.projects p {
+.projects p,
+.role {
   max-width: 42rem;
   color: var(--muted);
+}
+
+.role {
+  margin: 0 0 0.45rem;
+  font-size: 0.98rem;
+}
+
+.skill-groups {
+  display: grid;
+  gap: 1.35rem;
+}
+
+.skills h3 {
+  margin: 0 0 0.6rem;
+  font-family: var(--sans);
+  font-size: 0.78rem;
+  font-weight: 640;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent);
 }
 
 .skills ul,

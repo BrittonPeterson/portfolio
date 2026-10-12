@@ -6,7 +6,7 @@
     <title>Britton Peterson — Portfolio</title>
     <meta
       name="description"
-      content="Portfolio of Britton Peterson, a software engineer. Magic: The Gathering data tools and Python coursework."
+      content="Portfolio of Britton Peterson, a software engineering student at Minnesota State University, Mankato, contracted with Thomson Reuters."
     />
     <link rel="icon" href="favicon.svg" type="image/svg+xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -25,6 +25,7 @@
         <a class="brand" href="#top">Britton Peterson</a>
         <nav class="nav" aria-label="Page">
           <a href="#about">About</a>
+          <a href="#experience">Experience</a>
           <a href="#work">Work</a>
           <a href="#skills">Skills</a>
           <a href="#contact">Contact</a>
@@ -35,12 +36,12 @@
     <main id="top">
       <section class="hero">
         <p class="eyebrow">Portfolio · class site</p>
-        <h1>Software for decks, data, and the small tools in between.</h1>
+        <h1>Software engineering student, contracted with Thomson Reuters.</h1>
         <p class="lede">
-          I’m Britton Peterson. Most of what I build looks at Magic: The Gathering
-          from the data side: matchup tables, deck comparison, and a way to ask
-          questions about the metagame. This page is a short record of that work,
-          plus coursework.
+          I’m Britton Peterson. I study software engineering at Minnesota State
+          University, Mankato, and I contract with Thomson Reuters through Maverick
+          Software Consulting. This page is a short record of that work, a team
+          robotics project, and the Magic: The Gathering tools I build on my own.
         </p>
         <div class="hero-actions">
           <a class="button" href="https://github.com/BrittonPeterson">GitHub</a>
@@ -52,25 +53,74 @@
         <h2><span>01</span> About</h2>
         <div class="about-copy">
           <p>
-            I write Python and JavaScript, and I like projects that turn a messy
-            public dataset into something you can actually read. A lot of that
-            has been Endstep metagame numbers, Commander decklists, and 60-card
-            constructed lists.
+            I’m pursuing a B.S. in Software Engineering at Minnesota State
+            University, Mankato, and I expect to graduate in 2028. I already
+            finished a B.S. in Exercise Science there in 2024. That background
+            is where a lot of my communication and client-service habits come from.
           </p>
           <p>
-            The work below is on GitHub. Descriptions stay close to what each
-            repository actually does.
+            I like building user-focused software: a clear interface, a small
+            program that answers one question, or a full stack with React,
+            FastAPI, and PostgreSQL. Outside of class and the Thomson Reuters
+            contract, I work at Pulp Comics and Games in Mankato.
           </p>
         </div>
       </section>
 
+      <section id="experience" class="work">
+        <h2><span>02</span> Experience</h2>
+        <ol class="projects">
+          <li>
+            <article>
+              <div class="project-meta">
+                <span class="index">May 2026 – Present</span>
+                <span class="stack">Mankato, MN</span>
+              </div>
+              <h3>Thomson Reuters</h3>
+              <p class="role">Maverick Software Consulting</p>
+              <p>
+                Contracted for software development and testing on the CLEAR
+                database UI. I analyze and maintain regression tests.
+              </p>
+            </article>
+          </li>
+          <li>
+            <article>
+              <div class="project-meta">
+                <span class="index">Apr 2025 – Present</span>
+                <span class="stack">Mankato, MN</span>
+              </div>
+              <h3>Pulp Comics and Games</h3>
+              <p>
+                Help customers find Magic cards and collectibles, process trade-ins
+                and set resale prices, and keep displays current with new releases.
+              </p>
+            </article>
+          </li>
+        </ol>
+      </section>
+
       <section id="work" class="work">
-        <h2><span>02</span> Selected work</h2>
+        <h2><span>03</span> Selected work</h2>
         <ol class="projects">
           <li>
             <article>
               <div class="project-meta">
                 <span class="index">01</span>
+                <span class="stack">React · FastAPI · PostgreSQL</span>
+              </div>
+              <h3>Robot Delivery System</h3>
+              <p>
+                Working with a team to design an autonomous robot that delivers notes
+                and items through the workspace. The stack is React, FastAPI, and
+                PostgreSQL.
+              </p>
+            </article>
+          </li>
+          <li>
+            <article>
+              <div class="project-meta">
+                <span class="index">02</span>
                 <span class="stack">Python · JavaScript</span>
               </div>
               <h3>
@@ -87,7 +137,7 @@
           <li>
             <article>
               <div class="project-meta">
-                <span class="index">02</span>
+                <span class="index">03</span>
                 <span class="stack">TypeScript · React · Python</span>
               </div>
               <h3>
@@ -103,45 +153,15 @@
           <li>
             <article>
               <div class="project-meta">
-                <span class="index">03</span>
-                <span class="stack">Python</span>
-              </div>
-              <h3>
-                <a href="https://github.com/BrittonPeterson/CompareDecks">Compare Decks</a>
-              </h3>
-              <p>
-                Python programs for comparing Commander (EDH) decklists so two
-                lists can be lined up instead of read side by side by hand.
-              </p>
-            </article>
-          </li>
-          <li>
-            <article>
-              <div class="project-meta">
                 <span class="index">04</span>
                 <span class="stack">Python</span>
               </div>
               <h3>
-                <a href="https://github.com/BrittonPeterson/60CardDeckAnalysisTool">60-Card Deck Analysis</a>
+                <a href="https://github.com/BrittonPeterson/CompareDecks">MTG Deck Analysis Tool</a>
               </h3>
               <p>
-                A Python tool for looking at 60-card constructed decks, with deck
-                lists kept alongside the analysis script.
-              </p>
-            </article>
-          </li>
-          <li>
-            <article>
-              <div class="project-meta">
-                <span class="index">05</span>
-                <span class="stack">Python · coursework</span>
-              </div>
-              <h3>
-                <a href="https://github.com/BrittonPeterson/CIS121Project">CIS 121 To-Do List</a>
-              </h3>
-              <p>
-                A command-line to-do list from CIS 121. Tasks can be added, marked
-                complete, removed, and printed from a small pair of Python classes.
+                A command-line program that parses several Magic: The Gathering
+                decklists and counts how often each card appears.
               </p>
             </article>
           </li>
@@ -149,22 +169,47 @@
       </section>
 
       <section id="skills" class="skills">
-        <h2><span>03</span> Skills</h2>
-        <ul>
-          <li>Python</li>
-          <li>JavaScript</li>
-          <li>TypeScript</li>
-          <li>React</li>
-          <li>FastAPI</li>
-          <li>HTML &amp; CSS</li>
-          <li>Git &amp; GitHub</li>
-        </ul>
+        <h2><span>04</span> Skills</h2>
+        <div class="skill-groups">
+          <div>
+            <h3>Languages</h3>
+            <ul>
+              <li>Python</li>
+              <li>Java</li>
+              <li>JavaScript</li>
+              <li>TypeScript</li>
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Full stack</h3>
+            <ul>
+              <li>React</li>
+              <li>Vite</li>
+              <li>FastAPI</li>
+              <li>PostgreSQL</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Tools</h3>
+            <ul>
+              <li>Git</li>
+              <li>GitHub</li>
+              <li>Azure DevOps</li>
+              <li>Visual Studio Code</li>
+              <li>IntelliJ</li>
+              <li>Cursor</li>
+            </ul>
+          </div>
+        </div>
       </section>
 
       <section id="contact" class="contact">
-        <h2><span>04</span> Contact</h2>
-        <p>For class, reach me here.</p>
+        <h2><span>05</span> Contact</h2>
+        <p>Mankato, MN</p>
         <ul>
+          <li><a href="tel:+16125545953">612-554-5953</a></li>
           <li><a href="mailto:britton.peterson@outlook.com">britton.peterson@outlook.com</a></li>
           <li><a href="https://github.com/BrittonPeterson">github.com/BrittonPeterson</a></li>
         </ul>
